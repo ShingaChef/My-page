@@ -1,0 +1,33 @@
+body{
+ background-color: bisque;  
+}
+    #my_photo {
+    width: 170px;
+    height: 280px;
+
+}
+.how_find,
+.my_page,
+.about_us {   
+    color: black;
+    display: flex;
+    justify-content: center;
+    border: 5px double black;
+    border-radius: 100px;
+}
+header {
+    font-size: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    
+}
+a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    color: whitesmoke;
+}
